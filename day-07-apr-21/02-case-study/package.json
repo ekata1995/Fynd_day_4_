@@ -1,0 +1,23 @@
+{
+    "name": "02-case-study",
+    "version": "1.0.0",
+    "description": "Workshops app",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "nodeversion": "node --version",
+        "copy": "cpx \"node_modules/{@fortawesome/fontawesome-free,normalize.css}/**/*\" public/external",
+        "start": "live-server --mount=/:public --open=/ --entry-file=index.html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.3",
+        "normalize.css": "^8.0.1"
+    },
+    "devDependencies": {
+        "cpx": "^1.5.0",
+        "live-server": "^1.2.1"
+    }
+}

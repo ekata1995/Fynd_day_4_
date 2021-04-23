@@ -1,0 +1,85 @@
+/**
+ * -----------------
+ * Layout utilities
+ * -----------------
+ */
+.container {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.list-unstyled {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-inline {
+    display: flex;
+    flex-direction: row;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left !important;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 100%;
+}
+
+@media ( min-width : 768px ) {
+    .col {
+        flex-basis: 30%;
+    }
+}
+
+/**
+ * -----------------
+ * Spacing utilities
+ * -----------------
+ */
+.my-0 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.my-1 {
+    margin-top: 0.4em !important;
+    margin-bottom: 0.4em !important;
+}
+
+.my-2 {
+    margin-top: 0.7em !important;
+    margin-bottom: 0.7em !important;
+}
+
+.my-3 {
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+}
+
+.my-4 {
+    margin-top: 1.5em !important;
+    margin-bottom: 1.5em !important;
+}

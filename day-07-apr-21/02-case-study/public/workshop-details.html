@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>List of Workshops | Workshops App</title>
+        <link rel="stylesheet" href="/external/normalize.css/normalize.css">
+        <link rel="stylesheet" href="/external/@fortawesome/fontawesome-free/css/all.min.css">
+        <link rel="stylesheet" href="/css/utils.css">
+        <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="/css/button.css">
+        <link rel="stylesheet" href="/css/card.css">
+        <link rel="stylesheet" href="/css/navbar.css">
+        <link rel="stylesheet" href="/css/form.css">
+        <link rel="stylesheet" href="/css/workshops-list.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container">
+                <ul class="list-unstyled list-inline">
+                    <li>
+                        <a href="/index.html" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="/workshops-list.html">List of Workshops</a>
+                    </li>
+                </ul>
+            </div>    
+        </nav>
+
+        <main>
+            <section class="container">
+                <header>
+                    <h1 class="clearfix">
+                        List of Workshops
+                        <button class="btn btn-primary float-right">Hide details</button>
+                    </h1>
+                </header>
+                <hr />
+                <!--
+                    Data can be found here
+                    http://workshops-server.herokuapp.com/workshops
+                -->
+                <div class="row workshops-list">
+                    <div class="col">
+                        <div class="card my-4">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/2000px-AngularJS_logo.svg.png" alt="Angular logo" class="img-fluid" />
+                            <h2>Angular</h2>
+                            <p>
+                                <i class="far fa-calendar-alt"></i>
+                                <span>May 10</span> - <span>May 15</span>
+                            </p>
+                            <p>
+                                <i class="far fa-clock"></i>
+                                <span>10:00 AM</span> - <span>5:30 PM</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card my-4">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png" alt="React JS logo" class="img-fluid" />
+                            <h2>React</h2>
+                            <p>
+                                <span>May 10</span> - <span>May 15</span>
+                            </p>
+                            <p>
+                                <span>10:00 AM</span> - <span>5:30 PM</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card my-4">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/2000px-AngularJS_logo.svg.png" alt="Angular logo" class="img-fluid" />
+                            <h2>Angular</h2>
+                            <p>
+                                <span>May 10</span> - <span>May 15</span>
+                            </p>
+                            <p>
+                                <span>10:00 AM</span> - <span>5:30 PM</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card my-4">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/2000px-AngularJS_logo.svg.png" alt="Angular logo" class="img-fluid" />
+                            <h2>Angular</h2>
+                            <p>
+                                <span>May 10</span> - <span>May 15</span>
+                            </p>
+                            <p>
+                                <span>10:00 AM</span> - <span>5:30 PM</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card my-4">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/2000px-AngularJS_logo.svg.png" alt="Angular logo" class="img-fluid" />
+                            <h2>Angular</h2>
+                            <p>
+                                <span>May 10</span> - <span>May 15</span>
+                            </p>
+                            <p>
+                                <span>10:00 AM</span> - <span>5:30 PM</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card my-4">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/2000px-AngularJS_logo.svg.png" alt="Angular logo" class="img-fluid" />
+                            <h2>Angular</h2>
+                            <p>
+                                <span>May 10</span> - <span>May 15</span>
+                            </p>
+                            <p>
+                                <span>10:00 AM</span> - <span>5:30 PM</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card my-4">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/2000px-AngularJS_logo.svg.png" alt="Angular logo" class="img-fluid" />
+                            <h2>Angular</h2>
+                            <p>
+                                <span>May 10</span> - <span>May 15</span>
+                            </p>
+                            <p>
+                                <span>10:00 AM</span> - <span>5:30 PM</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container">
+                <h2>Details of new session</h2>
+                <hr />
+                <form>
+                    <div class="form-group">
+                        <label class="control-label" for="name">Sequence ID</label>
+                        <div class="form-control-and-description">
+                            <input type="number" class="form-control" id="sequenceID" name="sequenceID" aria-describedby="name-description" />
+                            <div class="form-control-description" id="name-description">
+                                Sequence ID is the serial number of the session in the workshop
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="name">Name</label>
+                        <div class="form-control-and-description">
+                            <input type="text" class="form-control" id="name" name="name" aria-describedby="name-description" />
+                            <div class="form-control-description" id="name-description">
+                                The title of the session
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="name">Speaker(s)</label>
+                        <div class="form-control-and-description">
+                            <input type="text" class="form-control" id="name" name="name" aria-describedby="name-description" />
+                            <div class="form-control-description" id="name-description">
+                                The title of the session
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="name">Duration</label>
+                        <div class="form-control-and-description">
+                            <input typ="number" class="form-control" id="name" name="name" aria-describedby="name-description" />
+                            <div class="form-control-description" id="name-description">
+                                The title of the session
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="level">Level</label>
+                        <div class="form-control-and-description">
+                            <select class="form-control" id="level" name="level" aria-describedby="name-description">
+                                <option value="">-- Select the level of the session --</option>
+                                <option value="Basic">Basic</option>
+                                <option value="Intermediate">Intermediate</option>
+                                <option value="Advanced">Advanced</option>
+                            </select>
+                            <div class="form-control-description" id="name-description">
+                                The title of the session
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="name">Name</label>
+                        <div class="form-control-and-description">
+                            <input class="form-control" id="name" name="name" aria-describedby="name-description" />
+                            <div class="form-control-description" id="name-description">
+                                The title of the session
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group my-2">
+                        <label class="control-label" for="submit-button"></label>
+                        <div class="form-control-and-description">
+                            <button type="submit" class="btn btn-primary btn-lg" id="submit-button">Add session</button>
+                        </div>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

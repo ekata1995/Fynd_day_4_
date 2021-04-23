@@ -1,0 +1,44 @@
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+.control-label {
+    flex: 0 0 24%;
+    margin-bottom: 0.5em;
+}
+
+.form-control-and-description {
+    flex: 0 0 74%;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    /* outline is similar to border, but appears in the margin area */
+    outline: 0;
+    box-shadow: 0 0 5px 3px rgba( 0, 105, 217, 0.7 );
+}
+
+.form-control-description {
+    font-size: 0.85em;
+    margin: 0.4em 0;
+    color: #999;
+}
+
+@media ( max-width : 768px ) {
+    .form-group {
+        flex-direction: column;
+    }
+
+    .control-label,
+    .form-control-and-description {
+        flex-basis: 100%;
+    }
+}
